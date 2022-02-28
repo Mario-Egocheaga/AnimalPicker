@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner6;
-
 public class AnimalPicker
 {
     public static void main(String[] args)
@@ -12,11 +10,11 @@ public class AnimalPicker
 
         if(animal.equals("dog"))
         {
-            System.out.println("DOG ASCII ART HERE");
+            System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
         }
         else if (animal.equals("cat"))
         {
-            System.out.println("CAT ASCII ART HERE");
+            System.out.println(" |\\__/,|   (`\\\n |_ _  |.--.) )\n ( T   )     /\n(((^_(((/(((_/");
         }
         else
         {
