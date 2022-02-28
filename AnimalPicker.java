@@ -4,7 +4,7 @@ public class AnimalPicker
 {
     public static void main(String[] args)
     {
-        System.out.println("Would You Like To See A Dog or Cat?");
+        System.out.println("Would You Like To See A Dog or Cat, or a Fish?");
         Scanner anim = new Scanner(System.in);
         String animal = anim.next().toLowerCase();
 
@@ -15,6 +15,10 @@ public class AnimalPicker
         else if (animal.equals("cat"))
         {
             System.out.println(" |\\__/,|   (`\\\n |_ _  |.--.) )\n ( T   )     /\n(((^_(((/(((_/");
+        }
+        else if(animal.equals("fish"))
+        {
+            System.out.println("|\\   \\\\\\\\__     o\n| \\_/    o \\    o \n> _   (( <_  oo  \n| / \\__+___/      \n|/     |/");
         }
         else
         {
