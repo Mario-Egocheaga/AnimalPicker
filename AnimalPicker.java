@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.lang.model.util.ElementScanner6;
+
 public class AnimalPicker
 {
     public static void main(String[] args)
@@ -15,6 +17,10 @@ public class AnimalPicker
         else if (animal.equals("cat"))
         {
             System.out.println("CAT ASCII ART HERE");
+        }
+        else
+        {
+            System.out.println("Error: Invalid Option");
         }
 
 
