@@ -20,7 +20,8 @@ public class AnimalPicker
         }
         else
         {
-            System.out.println("Error: Invalid Option");
+            System.out.println("Error: Invalid Option. Please Enter A Valid Option.");
+            main(null);
         }
 
 
